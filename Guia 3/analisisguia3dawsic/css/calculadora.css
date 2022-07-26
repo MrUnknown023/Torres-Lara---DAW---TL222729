@@ -1,0 +1,73 @@
+*{
+    font-family: Arial;
+}
+
+header{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.calc{
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: lightseagreen;
+}
+
+.calc td button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 210px;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+#nueve, #ocho, #siete, #seis, #cinco, #cuatro, #tres, #dos, #uno, #cero, #punto{
+    background-color: white;
+}
+
+#nueve:hover, #ocho:hover, #siete:hover, #seis:hover, #cinco:hover, #cuatro:hover, #tres:hover, #dos:hover, #uno:hover, #cero:hover, #punto:hover{
+    background-color: lightgray;
+}
+
+#reset{
+    background-color: lightgreen;
+}
+
+#reset:hover{
+    background-color: yellowgreen;
+}
+
+#residuo, #inversa, #suma, #resta, #multi, #division, #raiz, #cuadrado{
+    background-color: lightskyblue;
+}
+
+#residuo:hover, #inversa:hover, #suma:hover, #resta:hover, #multi:hover, #division:hover, #raiz:hover, #cuadrado:hover{
+    background-color: darkturquoise;
+}
+
+#igual{
+    background-color: lightsalmon;
+}
+
+#igual:hover{
+    background-color: darkorange;
+}
+
+#blank{
+    background-color: lightslategrey;
+}

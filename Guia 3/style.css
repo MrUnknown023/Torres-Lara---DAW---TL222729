@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: arial;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    border: 1px solid darkcyan;
+    background-color: lightskyblue;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+}
+
+nav ul li{
+    margin: 20px;
+    margin-left: 0;
+    width: 200px;
+    border: 2px solid darkcyan;
+    padding: 5px;
+    background-color: darkcyan;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+    
+}
